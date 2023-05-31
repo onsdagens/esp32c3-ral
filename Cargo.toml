@@ -15,7 +15,7 @@ test = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cortex-m = "0.7.7" #very cringe needs removing but the default codegen depends on it for InterruptNumber impl
+cortex-m = "0.7.7" #very cringe needs removing but the default codegen depends on it for InterruptNumber impl so it stays while i figure out what to do with this.
 ral-registers = "0.1.2"
 
 
